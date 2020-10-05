@@ -1,0 +1,5 @@
+
+
+arr = list(set(map(int, input().split())))  ## this line makes all elemets into list removing
+arr.sort(reverse = True)                    ## descending order..
+print(arr[1])                               ## printing second number in the list..
